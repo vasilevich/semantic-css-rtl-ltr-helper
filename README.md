@@ -19,8 +19,8 @@ yarn add semantic-css-rtl-ltr-helper
 npm install semantic-css-rtl-ltr-helper
 ```
 
-##* Run
-####* Typescript:
+##* Run    
+####* Typescript:    
 ```ts
 /* First import the helper functions into your project like so:*/
 import {setStyleDirection} from 'semantic-css-rtl-ltr-helper';   
