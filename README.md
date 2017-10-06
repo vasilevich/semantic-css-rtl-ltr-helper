@@ -8,7 +8,19 @@ code using the minimum CSS code required to achieve it:
 `ltr.min.css` - is the difference that allows LTR support. 
 ## Examples:
 ### How to use within your code:
-#### Typescript:
+##* Install
+#### YARN
+```bash
+yarn add semantic-css-rtl-ltr-helper
+```
+### or     
+#### NPM
+```bash
+npm install semantic-css-rtl-ltr-helper
+```
+
+##* Run
+####* Typescript:
 ```ts
 /* First import the helper functions into your project like so:*/
 import {setStyleDirection} from 'semantic-css-rtl-ltr-helper';   
@@ -24,7 +36,7 @@ setStyleDirection("ltr");
 //To disable semantic
 setStyleDirection();
 ```
-#### Javascript
+####* Javascript
 Same as above but maybe use the normal js kind of import, not much other difference.
 
 Please note:   
