@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/semantic-css-rtl-ltr-helper.svg)](https://www.npmjs.com/package/semantic-css-rtl-ltr-helper)
 # Semantic RTL/LTR easy switch
 This repository depends on [Semantic CSS converted to RTL/LTR](https://github.com/Okoyl/Semantic-UI-CSS) and it is added as a dependency in ```package.json```.
 The code in this repository allows you to, progamantically switch between RTL/LTR semantic CSS within your    
