@@ -7,14 +7,29 @@ code using the minimum CSS code required to achieve it:
 `ltr.min.css` - is the difference that allows LTR support. 
 ## Examples:
 ### How to use within your code:
+#### Typescript:
 ```ts
-/* First import the helper functions into your project.*/
+/* First import the helper functions into your project like so:*/
+import {setStyleDirection} from 'semantic-css-rtl-ltr-helper';   
    
-/**...whatever code you want */
+/**...Some other code that you want to put here... */
    
 // Then in order to switch between RTL/LTR you must execute like this:
+//To set semantic RTL:
+setStyleDirection("rtl");
 
-
-
+//To set semantic LTR:
+setStyleDirection("ltr");
+//To disable semantic
+setStyleDirection();
 ```
+#### Javascript
+Same as above but maybe use the normal js kind of import, not much other difference.
 
+Please note:   
+Once you import/require   
+`'semantic-css-rtl-ltr-helper'`   
+into your code,
+3 style tags will be automatically added into the `HEAD` of your rendered `HTML` file.
+of the 3 files mentioned above (`common.min.css` `rtl.min.css` `ltr.min.css`  ) in disabled mode.
+so they won't be activated until you decide to do so using the commands mentioned above.
