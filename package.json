@@ -1,0 +1,26 @@
+{
+  "name": "semantic-css-rtl-ltr-helper",
+  "version": "1.0.8",
+  "description": "Easy to control semantic styles with a simple switch between LTR and RTL teted with webpack 2",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "Yosef",
+  "license": "ISC",
+  "dependencies": {
+    "semantic-ui-css": "git+https://github.com/Okoyl/Semantic-UI-CSS.git"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.32"
+  },
+  "files": [
+    "lib",
+    "LICENSE"
+  ],
+  "types": "./lib/index.d.ts",
+  "repository": {
+    "type": "git"
+  }
+}
