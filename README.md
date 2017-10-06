@@ -31,5 +31,5 @@ Once you import/require
 `'semantic-css-rtl-ltr-helper'`   
 into your code,
 3 style tags will be automatically added into the `HEAD` of your rendered `HTML` file.
-of the 3 files mentioned above (`common.min.css` `rtl.min.css` `ltr.min.css`  ) in disabled mode.
-so they won't be activated until you decide to do so using the commands mentioned above.
+of the 3 files mentioned above (`common.min.css` `rtl.min.css` `ltr.min.css`  ) in enabled mode.
+so all the 3 will be active until you use one of the commands mentioned above.

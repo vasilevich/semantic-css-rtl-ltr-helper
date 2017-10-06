@@ -1,1 +1,1 @@
-export declare const setStyleDirection: (direction?: string) => void;
+export declare const setStyleDirection: (dir?: string, lang?: string) => void;
