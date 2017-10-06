@@ -1,6 +1,6 @@
 {
   "name": "semantic-css-rtl-ltr-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easy to control semantic styles with a simple switch between LTR and RTL teted with webpack 2",
   "main": "lib/index.js",
   "scripts": {
